@@ -1,0 +1,66 @@
+a {
+  color: #2176FF;
+  text-decoration: underline;
+  cursor: pointer;
+}
+ 
+a:hover {
+  text-decoration: none;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+ 
+.nav-link:hover {
+  color: #5495ff;
+}
+
+
+ .btn {
+    border: 2px solid #2176FF;
+    border-radius: 5px;
+    color: #F8F8F8;
+    text-shadow: 0 -2px #006bb3;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px -2px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px rgba(255, 255, 255, 0.8) inset;
+    background: #1D1;
+    background-color: #2176FF;
+    text-shadow: 0 -2px #0c960c;
+    
+  }
+  
+  .btn:hover {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+    background: beige;
+    background: linear-gradient(lightblue, lightblue);
+    border-color: beige;
+  }
+  
+  .btn:active {
+    margin-top: 2px;
+    margin-bottom: -2px;
+    box-shadow: 0px 2px 2px rgba(63, 63, 63, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+    background: beige;
+    background: linear-gradient(beige, beige);
+  }
+
+  .activity {
+  border: 1px solid #2176FF;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.activity:hover {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+    background: beige;
+    background: linear-gradient(lightblue, lightblue);
+    border-color: beige;
+  }
+  
+  .activity:active {
+    margin-top: 2px;
+    margin-bottom: -2px;
+    box-shadow: 0px 2px 2px rgba(63, 63, 63, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+    background: beige;
+    background: linear-gradient(beige, beige);
+  }

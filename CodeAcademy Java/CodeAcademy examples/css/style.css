@@ -1,0 +1,160 @@
+@import url("mobilestyle.css");
+@import url("tabletstyle.css");
+
+
+body {
+    background-image: linear-gradient(white, grey);
+}
+
+header {
+    background-image: linear-gradient(to right, white, gray);
+    box-shadow: 0.5em 0.5em 0.5em black;
+}
+
+header img {
+    width: auto; /*This stretches the image across the viewport*/
+    height: auto; /* This height will change on the size of the viewport*/
+    max-width: 725px;
+}
+
+nav {
+    padding-top: 0.4em;
+    margin-top: -8.1em; /*This moves the nav element above where it would normally be*/
+    background-color: to right, white, gray;
+    width: 57%;
+    float: right; /*This floats the nav elements to the right*/ 
+
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    width: 95%;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em; 
+}
+
+nav ul li {
+    background-color: black;
+    padding: 1em;
+    min-width: 12%;
+    margin: 0.75em;
+    list-style-type: none; /*This removes bullet points*/
+    display: inline-block; /*This lists items horizontally and allows them to stretch.*/
+    border-radius: 1.0em; /* This rounds the corners of elements*/
+    box-shadow: 0.5em 0.5em 0.5em black;
+
+
+}
+
+nav ul li a {
+    color: white;
+    color: rgb(0,0,0);
+    color: #ffffff;
+    text-decoration: none; /*This removes the underline from the hyperlink.*/
+}
+
+figure {
+    text-align: center;
+    background-color: white;
+    box-shadow: 0.5em 0.5em 0.5em black;
+}
+
+figure img {
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    height: auto;
+}
+
+main {
+    padding: 1em; 
+    border-top: solid 0.3em black;
+    border-bottom: solid 0.3em black;
+    background-image: linear-gradient(white,white,gray);
+    min-height: 400px;
+    border-radius: 1.0em; /* This rounds the corners of elements*/
+    margin-bottom: 1em; /*This places some space between elements*/
+    box-shadow: 0.5em 0.5em 0.5em black;
+
+}
+/*This was for our 3 column laypout begin*/
+ .row::after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+
+ main div .column {
+    float: left;
+ }
+
+ main div .left {
+    padding: 0.5%;
+    width: 20%;
+    float: left;
+ }
+
+ main div .center {
+    padding: 0.5%;
+    width: 50%;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+ }
+
+ main div .right {
+    float: right;
+    padding: 0.5%;
+    width: 25%
+ }
+/*This was for our 3 column laypout end*/
+
+/*.schedule table begin.*/
+.schedule table {
+    border:0.1em solid black;
+    border-collapse: collapse;
+    width: 95%;
+    margin-left:2.5%;
+    background-color: white;
+    
+}
+
+.schedule caption {
+    border: 0.1em solid black;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.schedule th, .schedule td {
+    border: 0.1em solid black;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.schedule th {
+    background-color: black;
+    color:white;
+}
+
+/*.schedule table end.*/
+
+#enrollprice {
+    border: 00.1em solid black;
+    border-collapse: collapse;
+}
+#enrollprice td {
+    border: 0.1em solid black;
+    padding: 0.5em;
+    text-align: center;
+}
+
+footer {
+    background-image: linear-gradient(to right, white,gray);
+    text-align: center;
+    border-top: solid 0.3em black;
+    border-bottom: solid 0.3em black;
+    border-radius: 1.0em; /* This rounds the corners of elements*/
+    box-shadow: 0.5em 0.5em 0.5em black;
+}
+

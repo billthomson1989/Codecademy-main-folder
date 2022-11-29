@@ -1,0 +1,6 @@
+I hope this example appears
+If all goes well it will appear
+
+Here is another line in our text file Time for a new line1
+Time for a new line2
+Time for a new line3

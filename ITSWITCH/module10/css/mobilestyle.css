@@ -1,0 +1,19 @@
+@media screen and (max-width: 640px) {
+
+nav {
+    border-radius: 1.0em; /* This rounds the corners of elements*/
+
+    }
+    nav ul li {
+        border-radius: 1em;
+    }
+
+    .tablet {
+        display: none;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+}
