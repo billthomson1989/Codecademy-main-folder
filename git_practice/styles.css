@@ -1,7 +1,8 @@
 body {
     height: 90vh;
     background-image: radial-gradient(rgb(78, 86, 104), rgb(140, 168, 194));
-    font-family: belda-normal, sans-serif; 
+    font-family: belda-normal, sans-serif;
+    background-image: url("media/Glasgow.png");
 }
 
 main {
@@ -25,7 +26,6 @@ h1 {
 
 .container {
     padding: 8px 20px;
-    border: solid 1px rgb(182, 182, 182);
     width: inherit;
     text-align: center;
     overflow: hidden;

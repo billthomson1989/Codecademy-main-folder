@@ -1,5 +1,5 @@
-const array0 = ['Ma Da will shag your Da!', 'See him he&#39;s a bawbag! ', 'Jog on ya bas ', 'That guy ', 'Is that your real face or did yer arse come up for a breather? '];
-const array1 = ['Your Maw has cheesy watsit fingers!', 'shut it ya big jobby!', 'Aye, i&#39;ll tell yer maw when I see her tonight.  ', 'Yer fanny&#39;s hummin&#39;, hen ', 'yer maw&#39;s got a face like a plaster&#39;s radio'];
+const array0 = ['Ma Da will shag your Da!', 'See him he&#39;s a bawbag! ', 'Jog on ya bas ', 'Aaaawww, whit man! ', 'Is that your real face or did yer arse come up for a breather? '];
+const array1 = ['Your Maw has cheesy watsit fingers!', 'shut it ya big jobby!', 'Aye, i&#39;ll tell yer maw when I see her tonight.  ', 'Yer fanny&#39;s hummin&#39;, hen ', 'yer maw&#39;s got a face like a plasterer&#39;s radio'];
 const array2 = ['Jog on ya jammydodger!', 'Yer Da wanks on all fours!', 'Wit ya on about, ya big eejit.', 'Yer Maw&#39;s got toenails like quevers.', 'shaggin&#39; yer Maw is like throwing a sausage down a close'];
 let counter = 0;
 

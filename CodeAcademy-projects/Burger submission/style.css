@@ -21,6 +21,13 @@ body {
   #burger {
     max-height: 30%;
   }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
   
   #overlay {
     width: 80%;
