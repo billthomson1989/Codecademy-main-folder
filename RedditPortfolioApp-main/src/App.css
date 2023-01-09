@@ -1,0 +1,54 @@
+.App {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 99%;
+  margin: 0.5% auto;
+}
+
+header {
+  grid-column: 1 / -1;
+  padding: 0.5%;
+  /* test display do not need the following */
+  /* background-color: cyan; */
+}
+
+main {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+  padding: 0.5%;
+  /* test display do not need the following */
+  /* background-color: darkorange; */
+}
+
+footer {
+  grid-column: 1 / -1;
+  padding: 0.5%;
+  /* test display do not need the following */
+  /* background-color: lightslategrey; */
+}
+
+main .posts {
+  grid-column: 1 / 2;
+  /* test display do not need the following */
+  /* background-color: cyan; */
+}
+
+main .subreddits {
+  grid-column: 2 / -1;
+  /* test display do not need the following */
+  /* background-color: lightgreen; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}

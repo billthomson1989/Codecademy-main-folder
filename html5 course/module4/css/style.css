@@ -1,0 +1,34 @@
+h2 {
+    color:yellow;
+    background-color: red;
+    font-family:  Aerial, "Comic Sans", Calibri;
+    font-size: 3em;
+    text-align: center; /*This will help align elements.*/
+}
+
+h1 {
+    background-color: white;
+}
+
+#container {
+    color:yellow;
+}
+
+.accent {
+    background-color:yellow;
+    color:gray
+}
+
+body main div {
+
+    color: white;
+}
+
+
+
+footer {
+
+    background-color: rgb(23, 216, 126);
+
+    color: #6920dd;
+}
