@@ -1,0 +1,48 @@
+.subreddits {
+    background-color: gray;
+    box-shadow: 0px 8px 10px 0px gray;
+}
+
+.subreddits h2 {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.subreddits ul {
+    list-style: none;
+    padding: 0 10px;
+}
+
+.subreddits button {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.subreddits button:hover {
+    background: darkgrey;
+}
+
+.selected-subreddit {
+    border-left: 5px solid darkgoldenrod;
+    background: lightgray;
+}
+
+.selected-subreddit button {
+    color: blue;
+    font-size: 20px;
+}
+
+.icon {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 8px;
+}

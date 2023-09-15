@@ -1,0 +1,46 @@
+@media screen and (max-width: 641px){
+
+    nav ul li {
+        display: inline-block; /*This lists items horizontally and allows them to stretch.*/
+        border-radius: 1em;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    nav ul li {
+        padding: 0.7em;
+        border-top: solid .2em black;
+        border-bottom: solid .2em black;
+        margin: 1em;
+        display: inline-block; /*This lists items horizontally and allows them to stretch.*/
+        border-radius: 1em;
+        min-width: 10%;
+        box-shadow: 0.5em 0.5em 0.5em black;
+    }
+
+    figure {
+        box-shadow: 0.5em 0.5em 0.5em black;
+    }
+
+    main {
+        box-shadow: 0.5em 0.5em 0.5em black;
+    }
+
+    main div .center {
+        width: 60%;
+        border-right: 0.3em solid black;
+
+    }
+
+    footer {
+        background-image: linear-gradient(to right white,gray);
+        text-align: center;
+        border-top: solid 0.3em black;
+        border-bottom: solid 0.3em black;
+        border-radius: 1.0em; /* This rounds the corners of elements*/
+        box-shadow: 0.5em 0.5em 0.5em black;
+    }
+}
+

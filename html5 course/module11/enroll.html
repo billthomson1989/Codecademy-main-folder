@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Enroll</title>
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+
+        <script type="text/javascript">
+
+            function calculate() {
+                var course = 0;
+                var uniform =0;
+                var total =0;
+
+                if (document.getElementById("adult").checked == true) {
+
+                    course = 50;
+
+                }
+                else if (document.getElementById("teen").checked){
+
+                    course = 100;
+
+                }
+                else if (document.getElementById("child").chcked) {
+
+                    course = 150;
+
+                }
+
+                uniforms = 50 * document.getElementById("uniforms").value;
+
+                total = course + uniforms;
+
+                alert("Your total cost is: $"+ total); //This profuces a concatenated string in an alert box.//
+            }
+
+        </script>
+
+    </head>
+
+    <body>
+
+        <header><img src="media/images/logo.png" alt="Martial Arts Dogo logo"></header>
+    
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="enroll.html">Enroll</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+
+            <table>
+
+                <tr>
+                    <td><label for="firstname">First Name</label></td>
+                    <td><input type="text" id="firstname" name="firstname"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="lastname">Last Name</label></td>
+                    <td>                <input type="text" id="lastname" name="lastname"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" id="email"><!--Note the input type--></td>
+                </tr>
+
+                <tr>
+                    <td><label for="phone">Phone</label></td>
+                    <td><input type="tel" name="phone" id="phone"><!--Note the input type--></td>
+                </tr>
+
+            </table>
+
+            <table>
+                <table id="enrollprice">
+                <caption>Enroll</caption>
+
+                <tr>
+                    <td>Adult</td>
+                    <td>$50</td>
+                    <td><input type="radio" id="adult" name="course" value="50"></td>
+                </tr>
+
+                <tr>
+                    <td>Teen</td>
+                    <td>$100</td>
+                    <td><input type="radio" id="teen" name="course" value="100"></td>
+                </tr>
+
+                <tr>
+                    <td>Child</td>
+                    <td>$150</td>
+                    <td><input type="radio" id="child" name="course" value="150"></td>
+                </tr>
+
+                <td>Uniforms</td>
+                <td>$50</td>
+                <td><input type="number" min="0" value="0" id="uniforms"></td>
+            
+            </table>
+
+            <p><input type="submit" id="submit" value="Submit" onclick="calculate()"></p>
+            <input type="reset" value="Reset" id="reset"><br>
+
+        </main>
+
+        <footer>
+            <p>Our location:<br>
+                12345 ABC St.<br>
+                Anytown, Carlisle PR1 2AB</p>
+                <p>Phone Number: <a href="tel:5555551212">(5555) 555-1212</a></p>
+                <p>Email Address: <a href="mailto:owner@anybusiness.abc">owner@anybusiness.abc</a></p>
+        </footer>
+
+    </body>
+</html>
