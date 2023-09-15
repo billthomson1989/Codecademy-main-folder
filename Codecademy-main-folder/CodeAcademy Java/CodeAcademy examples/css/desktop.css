@@ -1,0 +1,46 @@
+/*Begin desktop.*/
+@media screen and (max-width: 961px) {
+
+    header {
+        background-image: linear-gradient(to right, white, black);
+        box-shadow: 0.5em 0.5em 0.5em black;
+    
+    }
+    
+        header img {
+            width: auto;
+            height: 5em;
+        }
+    
+        .desktop {
+            display:block;
+        }
+    
+        nav {
+            background-color: black;
+            padding-top: 0.4em;
+            padding-bottom: 0.4em;
+            background-color: black;
+            margin-top: -5.1em; /*This moves the nav element above where it would normally be*/
+            width: 60%;
+            float: right; /*This floats the nav elements to the right*/
+            border-top: solid 0.3em black;
+            border-bottom: solid 0.3em black;
+        }
+    
+        nav ul li {
+            display: inline-block; /*This lists items horizontally and allows them to stretch.*/
+            border-radius: 1em;
+            box-shadow: 0.5em 0.5em 0.5em black;
+        }
+    
+        main div .center {
+            padding: 0.5%;
+            width: 50%;
+    
+            border-right: 3px solid black;
+            border-left: 3px solid black;
+        }
+    
+    }
+    /*End desktop.*/

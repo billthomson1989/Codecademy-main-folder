@@ -1,0 +1,40 @@
+{
+	"folders": [
+		{
+			"path": "../template"
+		},
+		{
+			"path": "../module3"
+		},
+		{
+			"path": "../module4"
+		},
+		{
+			"path": "../module5"
+		},
+		{
+			"path": "../module6"
+		},
+		{
+			"path": "../module7"
+		},
+		{
+			"path": "../module8"
+		},
+		{
+			"path": "../module9"
+		},
+		{
+			"path": "../module10"
+		},
+		{
+			"path": "../module11"
+		},
+		{
+			"path": "../module13"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JS examples"
+	}
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Conditional Statement</title>
+        <meta charset="utf-8">
+
+        <script type="text/javascript">
+
+            function enter() {
+                var aNumber = 1;
+
+                var aString = "1";
+
+                var bString = "2";
+
+                var aBoolean = false;
+
+
+                if (aBoolean) {
+
+                    alert(aBoolean + " The first if statment is true.");
+
+                }
+                else {
+                    alert("The else statment excicutes because if is false.");
+                }
+
+                aBoolean = true;
+
+                var bBoolean = false;
+
+                if (bBoolean) {
+                    alert("The second if statement is is true.");
+                }
+                else if (aBoolean) {
+
+                    alert("else if is true.");
+                }
+
+
+            }
+        </script>
+
+    </head>
+
+    <body>
+
+        <header></header>
+    
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="datatypes.html">Data types</a>
+            <a href="globalmethods.html">Global Methods</a>
+            <a href="variables.html">Variables</a>
+            <a href="conditional.html">Conditional Statement</a>
+            <a href="loops.html">Loops</a>
+            <a href="operators.html">Operators</a>        
+        </nav>
+
+        <main>
+
+                <input type="submit" id="submit" value="Submit" onclick="enter()">
+
+        </main>
+
+        <footer></footer>
+
+    </body>
+</html>

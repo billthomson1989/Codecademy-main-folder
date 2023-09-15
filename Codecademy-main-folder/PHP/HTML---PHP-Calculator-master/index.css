@@ -1,0 +1,35 @@
+body {
+
+    /*background-color: #282923;*/
+    font-family: 'Roboto Mono', monospace;
+    /*background-color: #A0A0A0;*/
+    background-color: grey;
+    padding: 20px;
+
+    	
+    }
+    	
+h1 {
+    
+    font-family: 'Orbitron', sans-serif; 
+    color: #F8008C;	
+    	
+    }
+
+    	
+h2, h3 {
+    	
+    /*font-family: 'Orbitron', sans-serif; */
+    		
+    color:#FFFF00;
+    margin-right: -30px;
+    	
+    }
+
+ 
+
+
+
+
+
+

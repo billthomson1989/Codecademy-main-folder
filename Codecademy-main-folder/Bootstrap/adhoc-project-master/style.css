@@ -1,0 +1,5 @@
+div.jumbotron.jumbotron-fluid {
+    background-image:url('/images/jumbotron.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

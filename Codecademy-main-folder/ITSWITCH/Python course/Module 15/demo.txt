@@ -1,0 +1,2 @@
+What has happened now?
+Here is another line in our text file
